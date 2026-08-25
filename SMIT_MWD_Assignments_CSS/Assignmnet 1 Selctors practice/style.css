@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: blueviolet;
+    text-align: center;
+    text-shadow: 4px 1px 3px #ededed;
+    
+    color: blueviolet;
+    margin-top: 20px;
+    box-shadow:inset 1px 11px 20px 4px rgb(109 117 126);
+}
+
+h1 {
+    border: 2px solid rgb(85, 0, 165);
+    box-shadow: -1px 9px 20px 0px rgb(109 117 126) ;
+    box-shadow:inset 1px 11px 20px 4px rgb(109 117 126);
+}
+
+h1:hover {
+    background-color: red;
+    border: 2px solid rgb(209, 0, 0);
+    color: red;
+}

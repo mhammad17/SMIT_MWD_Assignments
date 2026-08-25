@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(2, 179, 2);
+    text-shadow:2px 2px 5px green;
+}
+.form{
+    width: 600px;
+    height: auto;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 195px;
+    margin-top: 20px;
+}
+
+.flex1 {
+    display: flex;
+    align-items: center;
+    gap: 195px;
+    margin-top: 90px;
+}
+
+.name>input{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.name>h2{
+    font-size: 50px;
+    color: rgb(8, 202, 8);
+}
+.age>input{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.age>h2{
+    font-size: 50px;
+    color: rgb(8, 202, 8);
+}
+
+.ops>input{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.ops>h2{
+    font-size: 30px;
+    color: rgb(8, 202, 8);
+}
+.pso>input{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.pso>h2{
+    font-size: 40px;
+    color: rgb(8, 202, 8);
+}
+button{
+    margin-left: 200px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: red;
+    border: 2px solid red;
+}
+
+button:hover{
+    color: white;
+    background-color: red;
+    border: 2px solid black;
+}

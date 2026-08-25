@@ -1,0 +1,306 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    background-image: url("images.jpeg");
+}
+
+.portfolio {
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+
+.nav {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.myimg img {
+    width: 250px;
+    height: 250px;
+    /* border: 2px solid red; */
+    border: 3px solid green;
+    border-radius: 150px;
+    margin-left: 500px;
+    margin-top: 60px;
+    box-shadow: 1px 0px 8px 0px #979393;
+}
+
+.myimg>h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 0px 9px rgb(196 194 194);
+}
+
+
+.mypersonalinformation {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    border: 3px solid green;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.mypersonalinformation>h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 6px -1px 6px gray;
+}
+
+.mypersonalinformation>h1:hover {
+    color: rgb(3, 158, 29);
+}
+
+.mypersonalinformation>ul>li {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 35px;
+    color: white;
+    text-shadow: 6px -1px 6px gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    border: 3px solid green;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.about>h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 6px -1px 6px gray;
+}
+
+.about>h1:hover {
+    color: rgb(3, 158, 29);
+}
+
+.about>p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 35px;
+    color: white;
+    text-shadow: 6px -1px 6px gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.project {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    border: 3px solid green;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.project>h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 6px -1px 6px gray;
+}
+
+.project>h1:hover {
+    color: rgb(3, 158, 29);
+}
+
+.projectgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box {
+    width: 390px;
+    height: 300px;
+    border: 2px solid rgb(2, 163, 2);
+    border-radius: 9px;
+    margin: 30px auto;
+}
+
+.box1 {
+    display: flex;
+    gap: 20px;
+}
+
+.box2 {
+    display: flex;
+    gap: 20px;
+}
+
+.box3 {
+    display: flex;
+    gap: 20px;
+}
+
+.box4 {
+    display: flex;
+    gap: 20px;
+}
+
+.box5 {
+    display: flex;
+    gap: 20px;
+}
+
+.box6 {
+    display: flex;
+    gap: 20px;
+}
+
+.box7 {
+    display: flex;
+    gap: 20px;
+}
+
+.box8 {
+    display: flex;
+    gap: 20px;
+}
+
+.box9 {
+    display: flex;
+    gap: 20px;
+}
+
+.box10 {
+    display: flex;
+    gap: 20px;
+}
+
+.box11 {
+    display: flex;
+    gap: 20px;
+}
+
+.box12 {
+    display: flex;
+    gap: 20px;
+}
+
+.img1>img {
+    width: 190px;
+    height: 150px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.img2>img {
+    width: 180px;
+    height: 150px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.img3>img {
+    width: 190px;
+    height: 150px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.img4>img {
+    width: 180px;
+    height: 150px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.img5>img {
+    width: 190px;
+    height: 150px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.img6>img {
+    width: 180px;
+    height: 150px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.img7>img {
+    width: 190px;
+    height: 150px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.img8>img {
+    width: 180px;
+    height: 150px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.img9>img {
+    width: 190px;
+    height: 150px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.img10>img {
+    width: 180px;
+    height: 150px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.img11>img {
+    width: 190px;
+    height: 150px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.img12>img {
+    width: 180px;
+    height: 150px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 6px -1px 6px gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1:hover {
+    color: rgb(3, 158, 29);
+}
+
+.assignmnet {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.assignmnet:hover{
+     color: rgb(3, 158, 29);
+}
