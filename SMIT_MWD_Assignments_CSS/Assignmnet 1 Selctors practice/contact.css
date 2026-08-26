@@ -18,21 +18,21 @@ h1 {
     box-shadow: inset 1px 11px 20px 4px rgb(109 117 126);
     border: 1px solid rgb(209, 0, 0);
     box-shadow: -1px 9px 20px 0px rgb(121, 129, 138);
-    box-shadow:inset -2px 12px 20px 1px rgb(109 117 126 / 60%);
+    box-shadow: inset -2px 12px 20px 1px rgb(109 117 126 / 60%);
 }
 
 
 
 h1:hover {
     background-color: rgb(77, 69, 69);
-    color:white;
+    color: white;
     border: 1px solid rgb(46, 43, 49);
 }
 
 .nav {
     width: 98%;
     height: 80px;
-    background-color:white;
+    background-color: white;
     border: 5px solid rgb(139, 2, 2);
     margin: 30px auto;
     border-radius: 90px;
@@ -46,30 +46,31 @@ h1:hover {
 .nav:hover {
     margin: 30px auto;
     border-radius: 90px;
-    background-color:rgb(206, 199, 199);
+    background-color: rgb(206, 199, 199);
     border: 5px solid rgb(46, 42, 42);
 }
 
-.logo>img{
+.logo>img {
     width: 80px;
     height: 70px;
     margin-left: 40px;
 }
 
-.list>ul{
+.list>ul {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 120px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    text-decoration: underline;
-
 }
-.colorchange{
+
+.colorchange {
     color: red;
     text-decoration: underline;
 }
+
+
 .search{
     display: flex;
 }
@@ -80,18 +81,14 @@ input{
     border: 1px solid black;
     padding-left: 20px;
 }
-.input>input:hover{
-     background-color:rgb(94, 84, 84);
-     border: 2px solid red;
-     
-}
 .icon>img{
     width: 40px;
     height: 40px;
+    border: 1px solid black;
 }
 
-.icon:hover{
-     background-color:rgb(94, 84, 84);
+.input>input:hover{
+    background-color:rgb(206, 199, 199);
      border: 2px solid red;
      
 }
@@ -104,7 +101,7 @@ input{
     border: 2px solid green;
 }
 .signin>button:hover{
-     background-color:rgb(160, 142, 142);
+    background-color:rgb(206, 199, 199);
      color: red;
      border: 2px solid rgb(255, 3, 3);
 }
