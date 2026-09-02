@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-size: cover;
+    background-image: url("images (2).jpeg");
+}
+
+
+.header {
+    width: 100%;
+    height: auto;
+}
+
+.list {
+    width: 95%;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.list ul {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    text-align: right;
+    justify-content: flex-end;
+    color:red;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.list ul :hover {
+    color: red;
+}
+
+.list ul :active {
+    color: gray;
+}
+
+.list ul :visited {
+    color: blue;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+    border-left: none;
+}
+
+.navbar>div {
+    display: flex;
+    align-items: center;
+    gap: 135px;
+}
+
+.flex {
+    width: 95%;
+    height: 180px;
+    margin: auto;
+}
+
+.logoflex {
+    display: flex;
+    align-items: center;
+}
+
+.logo>img {
+    width: 180px;
+    height: 180px;
+    border-radius: 200px;
+    background-color: black;
+    border: 3px solid red;
+
+}
+
+.logo>img:hover {
+    box-shadow: -1px 1px 20px 6px #ff000087;
+}
+
+.name>h1 {
+    font-family: arial;
+    color: white;
+    margin-left: 20px;
+    margin-top: -10px;
+    font-size: 25px;
+
+}
+
+.name>h1:hover {
+    color: red;
+    text-shadow: 4px 2px 5px #000000;
+}
+
+.name>h1:active {
+    color: blue;
+}
+
+/* .name>h1:active {
+    color: gray;
+} */
+
+#B {
+    color: blue;
+    margin-left: 30px;
+}
+
+#G {
+    color: red;
+    margin-left: 30px
+}
+
+#De {
+    color: gray;
+    margin-left: 30px;
+}
+
+.list2 ul {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    list-style: none;
+    color: red;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 4px 2px 5px #000000;
+}
+
+.list2 ul li:hover {
+    color: blue;
+}
+.list2 ul li:active {
+    color: gray;
+}
+
+.signup>button {
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: bold;
+    color: red;
+    border: 3px solid red;
+
+}
+
+.signup>button:hover {
+    color: blue;
+    text-shadow: 0px 0px 3px #000000;
+}
+
+.signup>button:active {
+    color: gray;
+    text-shadow: 0px 0px 3px #000000;
+}
+
+.signup>button:hover {
+    border: 3px solid blue;
+}
+
+.signin>button {
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: blue;
+    border: 3px solid blue;
+}
+
+.signin>button:hover {
+    color: red;
+    text-shadow: 0px 0px 3px #000000;
+}
+
+.signin>button:active {
+    color: gray;
+    text-shadow: 0px 0px 3px #000000;
+}
+
+.signin>button:hover {
+    border: 3px solid red;
+}

@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-size: cover;
+    background-image: url("images (2).jpeg");
+}
+
+
+.header {
+    width: 100%;
+    height: auto;
+}
+
+.list {
+    width: 95%;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.list ul {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    text-align: right;
+    justify-content: flex-end;
+    color: red;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.list ul :hover {
+    color: red;
+}
+
+.list ul :active {
+    color: gray;
+}
+
+.list ul :visited {
+    color: blue;
+    text-decoration: none;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+    border-left: none;
+}
+
+.navbar>div {
+    display: flex;
+    align-items: center;
+    gap: 135px;
+}
+
+.flex {
+    width: 95%;
+    height: 180px;
+    margin: auto;
+}
+
+.logoflex {
+    display: flex;
+    align-items: center;
+}
+
+.logo>img {
+    width: 180px;
+    height: 180px;
+    border-radius: 200px;
+    background-color: black;
+    border: 3px solid red;
+
+}
+
+.logo>img:hover {
+    box-shadow: -1px 1px 20px 6px #ff000087;
+}
+
+
+.name {
+    font-family: arial;
+    color: white;
+    margin-left: 20px;
+    margin-top: -10px;
+    font-size: 25px;
+
+}
+
+.name:hover {
+    color: red;
+    text-shadow: 4px 2px 5px #000000;
+}
+
+.name:active {
+    color: blue;
+}
+
+/* .name>h1:active {
+    color: gray;
+} */
+
+#B {
+    color: blue;
+    margin-left: 30px;
+}
+
+#G {
+    color: red;
+    margin-left: 30px
+}
+
+#De {
+    color: gray;
+    margin-left: 30px;
+}
+
+.list2 ul {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    list-style: none;
+    color: red;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 4px 2px 5px #000000;
+}
+
+.list2 ul li:hover {
+    color: blue;
+}
+
+.list2 ul li:active {
+    color: gray;
+}
+
+.signup>button {
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: bold;
+    color: red;
+    border: 3px solid red;
+
+}
+
+.signup>button:hover {
+    color: blue;
+    text-shadow: 0px 0px 3px #000000;
+}
+
+.signup>button:active {
+    color: gray;
+    text-shadow: 0px 0px 3px #000000;
+}
+
+.signup>button:hover {
+    border: 3px solid blue;
+}
+
+.signin>button {
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: blue;
+    border: 3px solid blue;
+}
+
+.signin>button:hover {
+    color: red;
+    text-shadow: 0px 0px 3px #000000;
+}
+
+.signin>button:active {
+    color: gray;
+    text-shadow: 0px 0px 3px #000000;
+}
+
+.signin>button:hover {
+    border: 3px solid red;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    border-left: none;
+    padding-top: 30px;
+}
+
+.main2nd {
+    width: 95%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.box1 {
+    width: 700px;
+    height: 580px;
+}
+
+
+.box1>h1 {
+    font-family: arial;
+    color: white;
+    margin-left: 0px;
+    font-size: 70px;
+    text-align: center;
+    /* margin-top: 180px; */
+    /* text-shadow: 5px -1px 8px #ffffff8a; */
+    text-shadow: 4px 2px 8px #000000;
+}
+
+.box1>p {
+    color: green;
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.box1>p:hover {
+    color: blue;
+    text-shadow: 4px 2px 5px #000000;
+}
+
+.box1>h1:hover {
+    color: red;
+    text-shadow: 4px 2px 5px #000000;
+}
+
+.box1>h1:active {
+    color: gray;
+}
+
+.box1>h1:active {
+    color: blue;
+}
+
+.box2 {
+    width: 700px;
+    height: 500px;
+    border: 4px solid red;
+    background-color: #000000;
+    box-shadow: -1px 1px 20px 6px #ff000087;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.box2:hover {
+    border: 5px solid rgb(0, 0, 170);
+    box-shadow: -1px 1px 20px 6px rgb(20, 20, 250);
+}
+
+.box2>h1 {
+    font-family: arial;
+    color: white;
+    text-align: left;
+    text-shadow: 5px -1px 8px #ffffff8a;
+    font-size: 50px;
+}
+
+.input {
+    width: 700px;
+    height: 70px;
+    margin: 20px 0;
+    padding-left: 25px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.input1 {
+    border: 4px solid red;
+    color: red;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.input2 {
+    border: 4px solid blue;
+    color: blue;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.input3 {
+    border: 5px solid rgb(105, 105, 105);
+    color: rgb(105, 105, 105);
+    font-family: arial;
+    font-size: 20px;
+}
+
+.input4 {
+    border: 4px solid green;
+    color: green;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.input1:hover {
+    border: 4px solid blue;
+}
+
+.input2:hover {
+    border: 4px solid red;
+}
+
+.input3:hover {
+    border: 4px solid green;
+}
+
+.input4:hover {
+    border: 5px solid rgb(105, 105, 105);
+}
+
+.input1:active {
+    border: 4px solid blue;
+    color: blue;
+}
+
+.input2:active {
+    border: 4px solid red;
+    color: red;
+}
+
+.input3:active {
+    border: 4px solid green;
+    color: green;
+}
+
+.input4:active {
+    color: gray;
+}
