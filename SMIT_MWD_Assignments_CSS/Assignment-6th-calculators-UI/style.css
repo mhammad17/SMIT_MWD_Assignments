@@ -1,0 +1,283 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background-image: url("pngtree-elegant-abstract-background-with-flowing-golden-and-cream-waves-featuring-shimmering-image_20423076.webp");
+    background-size: cover;
+    opacity:0.9; */
+
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    /* margin-top: 100px; */
+    background-image: url("pngtree-elegant-abstract-background-with-flowing-golden-and-cream-waves-featuring-shimmering-image_20423076.webp");
+    background-size: cover;
+    height: 700px;
+    opacity: 0.8;
+}
+
+.box1 {
+    width: 330px;
+    height: 575px;
+    background-color: #eddab6;
+    border: 5px solid rgb(226 182 105);
+    border-radius: 10px;
+    margin-top: 70px;
+    opacity: 100%;
+}
+
+.box2 {
+    width: 330px;
+    height: 550px;
+    background-color: #eddab6;
+    border: 5px solid rgb(226 182 105);
+    border-radius: 10px;
+    opacity: 100%;
+}
+
+.top {
+    width: 275px;
+    height: 250px;
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-left: 20px;
+    border: 3px solid  rgb(226 182 105);
+}
+
+.buttom {
+    width: 300px;
+    height: 275px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 4px;
+    border: 3px solid  rgb(226 182 105);
+}
+
+.icons {
+    width: 305px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: auto;
+}
+
+.input>input{
+    width:50px;
+    height: 50px;
+}
+
+.input{
+    margin-top: 170px;
+    margin-left: -20px;
+    text-align: right;
+    width: 295px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(252, 30000, 252, 0.253);
+    border: 0.5px solid gray;
+}
+.arrow>img {
+    width: 30px;
+    height: 30px;
+}
+
+.Equal>img {
+    width: 30px;
+    height: 30px;
+}
+
+.fourboxs>img {
+    width: 30px;
+    height: 30px;
+}
+
+.threedot>img {
+    width: 30px;
+    height: 30px;
+}
+
+.green {
+    background-color: green;
+    width: 130px;
+    height: 50px;
+    margin: auto;
+    border-radius: 7px;
+    margin-top: 50px;
+    color: white;
+}
+
+.white>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+}
+.muilt{
+    margin-top: 20px;
+}
+.green:active{
+    border: 3px solid rgb(255, 58, 58);
+    background-color: red;
+}
+
+td {
+    width: 130px;
+    height: 50px;
+    margin: auto;
+    border-radius: 7px;
+    margin-top: 80px;
+    background-color: white;
+    text-align: center;
+    font-family: arial;
+    font-size:25px;
+}
+
+td:active{
+    background-color: rgb(38, 38, 253);
+    border: 3px solid blue;
+}
+
+.tdimg>img{
+     width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.box2 {
+    width: 330px;
+    height: 575px;
+    background-color: #eddab6;
+    border: 5px solid rgb(226 182 105);
+    border-radius: 10px;
+    opacity: 100%;
+}
+
+.top2 {
+    width: 275px;
+    height: 250px;
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-left: 20px;
+    border: 3px solid  rgb(226 182 105);
+}
+
+.buttom2 {
+    width: 300px;
+    height: 275px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 4px;
+    border: 3px solid  rgb(226 182 105);
+}
+
+.icons {
+    width: 305px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: auto;
+}
+
+.input>input{
+    width:50px;
+    height: 50px;
+}
+
+.input{
+    margin-top: 170px;
+    margin-left: -20px;
+    text-align: right;
+    width: 295px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(252, 30000, 252, 0.253);
+    border: 0.5px solid gray;
+}
+.arrow>img {
+    width: 30px;
+    height: 30px;
+}
+
+.Equal>img {
+    width: 30px;
+    height: 30px;
+}
+
+.fourboxs>img {
+    width: 30px;
+    height: 30px;
+}
+
+.threedot>img {
+    width: 30px;
+    height: 30px;
+}
+
+.green {
+    background-color: green;
+    width: 130px;
+    height: 50px;
+    margin: auto;
+    border-radius: 7px;
+    margin-top: 50px;
+    color: white;
+}
+
+.white>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+}
+.muilt{
+    margin-top: 20px;
+}
+.green:active{
+    border: 3px solid rgb(255, 58, 58);
+    background-color: red;
+}
+
+td {
+    width: 130px;
+    height: 50px;
+    margin: auto;
+    border-radius: 7px;
+    margin-top: 80px;
+    background-color: white;
+    text-align: center;
+    font-family: arial;
+    font-size:25px;
+}
+
+td:active{
+    background-color: rgb(38, 38, 253);
+    border: 3px solid blue;
+}
+
+.tdimg>img{
+     width: 50px;
+    height: 50px;
+}
