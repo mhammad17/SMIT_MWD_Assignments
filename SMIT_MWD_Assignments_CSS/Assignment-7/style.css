@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+
+.left {
+    width: 55%;
+    height: auto;
+    display: flex;
+}
+
+.right {
+    width: 49%;
+    height: 550px;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid rgb(228, 227, 227);
+}
+
+.box1 {
+    width: 50%;
+    height: auto;
+}
+
+.box2 {
+     width: 100%;
+    height: auto;
+}
+.logo{
+    position: absolute;
+}
+.logo>img{
+    width:100%;
+    height: 70px;
+    position: relative;
+    top: 30px;
+    left: 70px;
+}
+
+.text>h1{
+    font-family: arial;
+    position: relative;
+    top: 300px;
+    left: 70px;
+    font-size: 49px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.box2>img{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+#span{
+    color: rgb(24, 119, 242);
+}
+.form{
+    width: 90%;
+    height: 400px;
+    margin-top: 100px;
+}
+.form>h1{
+    font-family:arial;
+    font-weight: 560;
+}
+.email{
+    width: 98%;
+    height: 70px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(170, 170, 170);
+    margin-top: 25px;
+}
+
+.email:hover{
+    border: 1px solid black;
+}
+
+.password{
+    width: 98%;
+    height: 70px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(170, 170, 170);
+    margin-top: 15px;
+}
+
+.password:hover{
+    border: 1px solid black;
+}
+
+.button{
+    width:100%;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 40px;
+    margin-top: 15px;
+    background-color: rgb(1, 107, 238);
+    border: none;
+    color: #ecf4ff;
+}
+
+.button:hover{
+    background-color: rgb(1, 92, 202);
+}
+
+.forgot{
+    width:100%;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 40px;
+    margin-top: 15px;
+    background-color: white;
+    border: none;
+    color:black;
+}
+.forgot:hover{
+    background-color:rgb(236, 236, 236);
+}
+
+a>.creat{
+    width:100%;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 40px;
+    margin-top: 15px;
+    background-color: white;
+    border: 1px solid rgb(0, 100, 224);
+    color:rgb(0, 100, 224);
+}
+a>.creat:hover{
+    background-color:rgb(236, 236, 236);
+}
+
+.form>img{
+    width: 70px;
+    height:auto;
+    margin-left: 250px;
+    margin-top: 20px;
+}

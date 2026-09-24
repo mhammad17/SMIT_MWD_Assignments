@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height:auto;
+}
+.header{
+    width: 45%;
+    height: 600px;
+    box-shadow: 0px 0px 10px 3px lightgray;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a>.icon>img{
+    width: 50px;
+    height: 50px;
+}
+
+.meta>img{
+    width: 70px;
+    height:auto;
+    margin-left: 10px;
+}
+
+h1{
+    font-family: arial;
+    font-size: 30px;
+    margin-left: 10px;
+}
+p{
+  font-family: arial;
+    margin-left: 10px;  
+    margin-top: 10px;
+    font-size: 20px;
+}
