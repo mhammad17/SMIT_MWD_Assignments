@@ -1,40 +1,219 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.container{
+.container {
     width: 100%;
-    height:auto;
+    height: auto;
 }
-.header{
+
+.header {
     width: 45%;
-    height: 600px;
+    height: auto;
     box-shadow: 0px 0px 10px 3px lightgray;
     margin: auto;
     border-radius: 10px;
     padding: 10px;
 }
 
-a>.icon>img{
+a>.icon>img {
     width: 50px;
     height: 50px;
 }
 
-.meta>img{
+.meta>img {
     width: 70px;
-    height:auto;
+    height: auto;
     margin-left: 10px;
 }
 
-h1{
+h1 {
     font-family: arial;
     font-size: 30px;
     margin-left: 10px;
 }
-p{
-  font-family: arial;
-    margin-left: 10px;  
+
+p {
+    font-family: arial;
+    margin-left: 10px;
     margin-top: 10px;
     font-size: 20px;
+}
+
+.inputs {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 50px; */
+}
+
+h3 {
+    font-family: arial;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.name>input {
+    width: 280px;
+    height: 60px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(167, 167, 167);
+}
+
+.name:hover {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.surname>input {
+    width: 280px;
+    height: 60px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(167, 167, 167);
+}
+
+.surname:hover {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 5px;
+}
+
+.h3>h3 {
+    font-family: arial;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.qoution>img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+}
+
+.selectmain {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.select {
+    width: 400px;
+    height: 50px;
+    font-family: arial;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: gray;
+}
+
+#Gender {
+    width: 610px;
+    height: 60px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(167, 167, 167);
+    margin-top: 10px;
+    color: gray;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#Gender:hover {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.input>input {
+    width: 590px;
+    height: 60px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(167, 167, 167);
+    margin-top: 10px;
+    color: gray;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.input>input:hover {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.mobile-buttom-text {
+    font-family: arial;
+}
+
+.mobile-buttom-text>a {
+    text-decoration: none;
+}
+
+.mobile-buttom-text>a:hover {
+    text-decoration: underline;
+}
+
+.mobile-buttom-text>a:visited {
+    color: rgb(250, 129, 149);
+}
+
+.password>input {
+    width: 590px;
+    height: 60px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(167, 167, 167);
+    margin-top: 10px;
+    color: gray;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.password>input:hover {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.button-submit>button {
+    width: 610px;
+    height: 45px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(1, 102, 224);
+    border: none;
+    text-align: center;
+    color: #ecf4ff
+}
+
+.button-submit>button:hover {
+    background-color: rgb(1, 92, 202);
+}
+
+.forgot {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 40px;
+    margin-top: 15px;
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.forgot:hover {
+    background-color: rgb(236, 236, 236);
 }

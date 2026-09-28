@@ -117,6 +117,26 @@ body {
     color: white;
 }
 
+
+
+.btn-green:hover{
+    cursor: pointer;
+}
+
+.btn-green:active{
+    color: green;
+    background-color: white;
+}
+
+.btn-white:hover{
+    cursor: pointer;
+}
+
+.btn-white:active{
+    background-color: green;
+    color: white;
+}
+
 .white>img{
     width: 50px;
     height: 50px;
@@ -125,10 +145,10 @@ body {
 .muilt{
     margin-top: 20px;
 }
-.green:active{
+/* .green:active{
     border: 3px solid rgb(255, 58, 58);
     background-color: red;
-}
+} */
 
 td {
     width: 130px;
@@ -141,11 +161,11 @@ td {
     font-family: arial;
     font-size:25px;
 }
-
+/* 
 td:active{
     background-color: rgb(38, 38, 253);
     border: 3px solid blue;
-}
+} */
 
 .tdimg>img{
      width: 50px;
@@ -255,10 +275,10 @@ td:active{
 .muilt{
     margin-top: 20px;
 }
-.green:active{
+/* .green:active{
     border: 3px solid rgb(255, 58, 58);
     background-color: red;
-}
+} */
 
 td {
     width: 130px;
@@ -271,11 +291,11 @@ td {
     font-family: arial;
     font-size:25px;
 }
-
+/* 
 td:active{
     background-color: rgb(38, 38, 253);
     border: 3px solid blue;
-}
+} */
 
 .tdimg>img{
      width: 50px;
