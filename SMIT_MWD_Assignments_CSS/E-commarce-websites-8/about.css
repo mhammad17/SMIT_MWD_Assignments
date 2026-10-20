@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+    background-image: url("5392027.jpg");
+    height: auto;
+    background-size: cover;
+}
+
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #000a18;
+    position: sticky;
+    position: fixed;
+    top: 0;
+    box-shadow: 1px -1px 20px 4px #353535;
+    z-index: 100;
+}
+
+.navbar {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo>p {
+    color: white;
+    font-family: arial;
+    font-size: 22px;
+}
+
+.logo>img {
+    width: 100px;
+    height: 100px;
+}
+
+.list>ul>li:hover {
+    color: red;
+}
+
+.list>ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-family: arial;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.red{
+    color: red;
+}
+.searchbar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(155, 155, 155);
+}
+
+.search-icon:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+.search-icon>img {
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+    margin-left: 8px;
+
+}
+
+.search-input>input {
+    width: 300px;
+    height: 40px;
+    font-family: arial;
+    font-size: 15px;
+    color: red;
+    padding-left: 20px;
+    background-color: #000a18;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+}
+.grid:hover{
+    border: 3px solid rgb(119, 0, 0);
+    border-left: none;
+}
+.grid {
+    width: 100%;
+    height: auto;
+    /* background-color: black; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: #000a18;
+    border: 3px solid #001631;
+    border-left: none;
+    padding: 50px 0px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    /* background-color: green; */
+    border-radius: 10px;
+    margin: auto;
+}
+
+.box>img{
+    width: 100%;
+    height: 70%;
+}
+
+.button>button:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.button>button {
+    margin-left: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:#000d1f;
+    color: rgb(206, 206, 206);
+    border: none;
+    margin-top: 15px;
+}
+
+.button>button:active {
+    background-color:#00122c;
+}
