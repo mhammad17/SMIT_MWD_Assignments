@@ -47,7 +47,7 @@ var message = "Hello World";
 // alert("Certified Mobile Application Development");
 // // Chapter4
 // Q1
-var proname ,surname ,username;
+var proname, surname, username;
 
 // Q2
 // legal
@@ -154,63 +154,129 @@ let five = 5;
 let ticketsum = ticket * five;
 console.log(ticketsum, " KPR");
 // Q5
-console.log("4 x 1 =", 4*1);
+console.log("4 x 1 =", 4 * 1);
 // console.log(4 * 1);
-console.log("4 x 2 =",4*2);
+console.log("4 x 2 =", 4 * 2);
 // console.log(4 * 2);
-console.log("4 x 3 =",4*3);
+console.log("4 x 3 =", 4 * 3);
 // console.log(4 * 3);
-console.log("4 x 4 =",4*4);
+console.log("4 x 4 =", 4 * 4);
 // console.log(4 * 4);
-console.log("4 x 5=",4*5);
+console.log("4 x 5=", 4 * 5);
 // console.log(4 * 5);
-console.log("4 x 6 =",4*7);
+console.log("4 x 6 =", 4 * 7);
 // console.log(4 * 6);
-console.log("4 x 8 =",4*8);
+console.log("4 x 8 =", 4 * 8);
 // console.log(4 * 8);
-console.log("4 x 9 =",4*9);
+console.log("4 x 9 =", 4 * 9);
 // console.log(4 * 9);
-console.log("4 x 10 =",4*10);
+console.log("4 x 10 =", 4 * 10);
 // console.log(4 * 10);
 
 // Q6
 console.log("Declare variable of tempereture");
 // a
-let Temp=25;
-let F=77;
+let Temp = 25;
+let F = 77;
 // B
-console.log(Temp+ "C"+ " " + "is" + " " + F +"F");
+console.log(Temp + "C" + " " + "is" + " " + F + "F");
 // d
 console.log("Declare second variable of tempereture");
-let F2=70;
-let Temp2=21.11111111111;
-console.log( + F2 +"F" + " " + "is" + " " + Temp2 + "C");
+let F2 = 70;
+let Temp2 = 21.11111111111;
+console.log(+ F2 + "F" + " " + "is" + " " + Temp2 + "C");
 
 // Q7
+console.log("Shopping cart");
+
 // a
-let price=1;
+let price = 1;
 // b
-let price2=650;
+let price2 = 650;
 console.log("Price of items" + " " + price + " " + "is" + " " + price2);
 
 // c
-let quant=1;
+let quant = 1;
 // d
-let quant2=3;
+let quant2 = 3;
 
 // console.log("Quantity of items " + " " + quant + " " + is + " " + quant2);
 console.log("Quantity of items" + " " + quant + " " + "is" + " " + quant2);
 
-let PR=2;
-let PR2=100;
-console.log("Price of items"  + " " + PR + " " +"is" + " " + PR2);
+let PR = 2;
+let PR2 = 100;
+console.log("Price of items" + " " + PR + " " + "is" + " " + PR2);
 
-let QI=2;
-let QI2=7;
+let QI = 2;
+let QI2 = 7;
 console.log("Quantitiy of items" + " " + QI + " " + "is" + " " + QI2);
 // e
-let shiphcar=100;
+let shiphcar = 100;
 console.log("Shipping Charges " + " " + shiphcar);
 
 console.log("Total cost of your order is 2750");
 
+// Q8
+
+let totalmarks = 980;
+let marksobtained = 804;
+let percentage = 82.04088163265306;
+console.log("Marks Sheet");
+
+console.log("Total Marks" + " " + " " + " " + " " + "Obtained Marks" + " " + " " + " " + " " + "Percentage");
+console.log(totalmarks + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + marksobtained + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + percentage);
+
+// Q9
+console.log("Currency in PKR ");
+let US1 = 104.80 * 10;
+let saudi1 = 28 * 25;
+let totalRs = US1 + saudi1;
+console.log("Total Curency in PKR :" + " " + totalRs);
+
+// Q10
+let initialize = 4;
+console.log(initialize + 5 + " " + initialize * 10 + " " + initialize / 2);
+// Q11 
+console.log("Age Calculator");
+// a
+let year = 2026;
+console.log("current Year :" + " " + year);
+// b
+let birth = 2008;
+console.log("Birth Year :" + " " + birth);
+// c
+let Yourage = 18;
+console.log("Your Age :" + " " + Yourage);
+
+// Q12
+console.log("The Geometrizer :");
+// a
+let redius = 20;
+console.log("Redius of a circle :" + " " + redius);
+// b
+let circum = 125.67999999999;
+console.log("The circumfrenece is :" + " " + circum);
+// c
+let area = 1256.8;
+console.log("The area is :" + " " + area);
+
+// Q13
+console.log("The Lifetime Supply Calculetor");
+// a
+let Fsnack = "Chocolate chip";
+console.log("Favourite Snack :" + " " + Fsnack);
+// b
+let Cage = 15;
+console.log("Current Age :" + " " + Cage);
+
+// c
+let EMA = 65;
+console.log("Estimated Maximum Age :" + " " + EMA);
+
+// d
+let Amount = 3;
+console.log("Amount of snacks per day : " + " " + Amount);
+
+// e
+let totalM = 150;
+console.log("You will need " + " " + totalM + " " + "chocolate chip to last you until the  ripe old age of " + " " + EMA);
