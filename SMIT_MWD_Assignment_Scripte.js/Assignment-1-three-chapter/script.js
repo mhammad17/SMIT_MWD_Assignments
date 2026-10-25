@@ -17,16 +17,6 @@
 
 // Q4
 // Answer
-// let page="page"
-// let num="1"
-// let string="Of"
-// let num1="3"
-// var sum= 1+3
-// console.log("page")
-
-// console.log(sum)
-// Q4
-// Answer
 // alert("Welcome to JS Land...");
 
 // alert("Happy Codding!");
@@ -42,17 +32,21 @@
 // Chapter 2
 
 // Q1
-// var username ;
+var username;
 
 // Q2
-// var myName = "your full name";
+var myName = "your full name";
+console.log(myName);
+
 
 // Q3
 // a
-// var message = "JS";
+var message = "JS";
 
 // b
-// var message = "Hello World";
+var message = "Hello World";
+console.log(message);
+
 // c
 // alert("message");
 
@@ -67,16 +61,18 @@
 // alert("pizza");
 
 // Q6
-// var address="My email address is";
-// var email="exaple@xample.com";
+var address = "My email address is";
+var email = "exaple@xample.com";
 // alert("My email address is exaple@xample.com");
-// console.log(address+email);
+console.log(address + email);
 // Q7
 // var book="A samrter way learn Javascript";
 
 // chapter5
 // Q1
-// var age="I am 15 years old";
+var age = "I am 15 years old";
+console.log(age);
+
 // alert("I am 15 years old");
 
 // Q2
@@ -85,21 +81,26 @@
 // Q4
 // alert("www.xyzClothing.com");
 // a
-var name="Visitors name";
+var $name = "Visitors name";
+console.log($name);
 // b
-var product="product title";
+var product = "product title";
+console.log(product);
+
 // c
-var visitors="product i.e";
+var visitors = "product i.e";
+console.log(visitors);
+
 
 
 // Chapter4
 // Q1
-var name surname username;
+var name, surname, username;
 
 // Q2
 // legal
-let Name ;
-let name ;
+let Name;
+let name;
 let name2;
 let name$;
 let name_3;
@@ -110,33 +111,33 @@ console.log("Rules for naming JS veriables ");
 
 // B
 // For Example ;
-var surame="start small letter ,";
-var Type="start capital letter";
-let type2="start or end add number";
-let type_="start or end add underscore";
-let type$="start or end add dollar";
+var surname = "start small letter ,";
+var Type = "start capital letter";
+let type2 = "start or end add number";
+let type_ = "start or end add underscore";
+let type$ = "start or end add dollar";
 
-console.log(surname+Type+type2+type_+tye$)
+console.log(surname + Type + type2 + type_ + type$)
 
 // C
-let $name="$name";
-let _name="_name";
-let rename="rename";
+let $name = "$name";
+let _name = "_name";
+let rename = "rename";
 
-console.log($name+_name+rename)
+console.log($name + _name + rename)
 
 // D
 // Javascript case sencetive;
 // The veriable Name Above ;
-let Marks=356;
+let Marks = 356;
 // The following veriable;
-let marks=350;
+let marks = 350;
 // A Declare veriable Name but miner diffrence 
 // capital letter and the following declaration veriable name small letter;   
 // chapter5
 // Q1
 // console.log(sum of 3 and 5 is 8);
-let a=3;
-let b=5;
-console.log(a+b);
+let a = 3;
+let b = 5;
+console.log(a + b);
 
