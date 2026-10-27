@@ -4,6 +4,7 @@
 // // Q2
 // // Answer
 
+
 // alert("Error! Please enter a vaild Password");
 
 // // Q3
@@ -280,3 +281,67 @@ console.log("Amount of snacks per day : " + " " + Amount);
 // e
 let totalM = 150;
 console.log("You will need " + " " + totalM + " " + "chocolate chip to last you until the  ripe old age of " + " " + EMA);
+
+// chater 6 to 9
+// Q1
+console.log("Result:");
+let number = 10;
+console.log("The value of number is:" + " " + number);
+console.log("...........................................");
+console.log("The value of ++number is:" + " " + ++number);
+console.log("Now the value of number is:" + " " + number);
+console.log("The value of number++ is:" + " " + number++);
+console.log("Now the value of number is:" + " " + number);
+console.log("The value of --number is:" + " " + --number);
+console.log("Now the value of number is:" + " " + number);
+console.log("The value of number-- is:" + " " + number--);
+console.log("Now the value of number is:" + " " + number);
+// Q2
+let A = 2;
+let B = 1;
+let result = --A - --B + ++B + B--;
+
+// let --A=1;
+// let --B=0;
+// let --A - --B = 1-0 =1;
+// let --A - --B + ++B = 1-0 + 1 = 2;
+// let --A - --B + ++B + B--= 1 - 0 + 1 + 1 = 3;
+console.log("The resilt is :" + " " + result);
+// Q3
+let Namefromuser = prompt("Enter user name");
+// Q5
+let userNum = prompt("Enter your favourit number", 5)
+if (userNum) {
+    console.log(userNum * 5);
+}
+// Q6
+console.log("Subject Total Marks Obtained Marks Percentage");
+// b
+let Totalmark = 100;
+exports.Totalmark = Totalmark;
+// c
+let subject1 = prompt("Enter your subject1");
+let Obtained1 = prompt("Enter your Obtained Marks1");
+let subject2 = prompt("Enter your subject2");
+let Obtained2 = prompt("Enter your Obtained Marks2");
+let subject3 = prompt("Enter your subject3");
+let Obtained3 = prompt("Enter your Obtained Marks3");
+
+let subject4 = prompt("Enter your subject4");
+let Obtained4 = prompt("Enter your Obtained Marks4");
+let subject5 = prompt("Enter your subject5");
+let Obtained5 = prompt("Enter your Obtained Marks5");
+let subject6 = prompt("Enter your subject6");
+let Obtained6 = prompt("Enter your Obtained Marks6");
+let subject7 = prompt("Enter your subject7");
+let Obtained7 = prompt("Enter your Obtained Marks7");
+
+console.log(subject1 + " " + Totalmark + " " + Obtained1);
+console.log(subject2 + " " + Totalmark + " " + Obtained2);
+console.log(subject3 + " " + Totalmark + " " + Obtained3);
+console.log(subject4 + " " + Totalmark + " " + Obtained4);
+console.log(subject5 + " " + Totalmark + " " + Obtained5);
+console.log(subject6 + " " + Totalmark + " " + Obtained6);
+console.log(subject7 + " " + Totalmark + " " + Obtained7);
+let ="Obtained1 + Obtained2 + Obtained3 + Obtained4 + Obtained5 + Obtained6 + Obtained7";
+console.log(Totalmark + " " + percentage);
