@@ -318,7 +318,7 @@ if (userNum) {
 console.log("Subject Total Marks Obtained Marks Percentage");
 // b
 let Totalmark = 100;
-exports.Totalmark = Totalmark;
+// exports.Totalmark = Totalmark;
 // c
 let subject1 = prompt("Enter your subject1");
 let Obtained1 = prompt("Enter your Obtained Marks1");
@@ -343,5 +343,12 @@ console.log(subject4 + " " + Totalmark + " " + Obtained4);
 console.log(subject5 + " " + Totalmark + " " + Obtained5);
 console.log(subject6 + " " + Totalmark + " " + Obtained6);
 console.log(subject7 + " " + Totalmark + " " + Obtained7);
-let ="Obtained1 + Obtained2 + Obtained3 + Obtained4 + Obtained5 + Obtained6 + Obtained7";
-console.log(Totalmark + " " + percentage);
+
+let Percentage =Obtained1 + Obtained2 + Obtained3 + Obtained4 + Obtained5 + Obtained6 + Obtained7
+console.log(Percentage);
+let a34=30;
+
+// let b45=prompt("Enter ");
+// console.log(a+b);
+
+console.log(Totalmark + " " + Percentage);
