@@ -1,0 +1,854 @@
+
+/* =========================
+   SAYLANI WELFARE WEBSITE
+   MAIN STYLESHEET
+========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --green: #59b83f;
+    --dark-green: #319525;
+    --blue: #009fe3;
+    --dark: #101828;
+    --gray: #667085;
+    --light: #f6faf5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark);
+    background: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.header {
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px #0000000c;
+}
+
+.topbar {
+    min-height: 65px;
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--green);
+}
+
+.logo-icon {
+    width: 42px;
+    height: 42px;
+    background: var(--green);
+    color: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.logo-text {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.logo-text small {
+    display: block;
+    font-size: 8px;
+    color: var(--blue);
+    letter-spacing: 1px;
+}
+
+.contact {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: #666;
+    font-size: 12px;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header-actions button {
+    padding: 11px 17px;
+    border: none;
+    border-radius: 30px;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.language {
+    background: white;
+    border: 1px solid #ddd !important;
+}
+
+.sponsor {
+    background: #0754a2;
+    color: white;
+}
+
+.donate {
+    background: var(--green);
+    color: white;
+}
+
+/* NAVIGATION */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    min-height: 58px;
+    border-bottom: 1px solid #eee;
+    flex-wrap: wrap;
+    padding: 12px 20px;
+}
+
+.navbar a {
+    font-size: 13px;
+    color: #555;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: var(--green);
+}
+
+/* HERO */
+
+.hero {
+    padding: 45px 5%;
+    min-height: 590px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 45px;
+    background: linear-gradient(120deg, #f5fbf4, #ffffff);
+}
+
+.hero-label {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 30px;
+    background: #e8f5e4;
+    color: var(--green);
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: clamp(42px, 5vw, 68px);
+    font-weight: 900;
+    line-height: 1.15;
+    color: #101010;
+    margin-bottom: 25px;
+}
+
+.hero h1 span {
+    color: var(--green);
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: var(--gray);
+    line-height: 1.9;
+    max-width: 580px;
+    margin-bottom: 35px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.primary-btn {
+    display: inline-block;
+    padding: 16px 35px;
+    border-radius: 40px;
+    background: var(--green);
+    color: white;
+    font-weight: 700;
+    box-shadow: 0 8px 20px #59b83f35;
+    transition: .3s;
+}
+
+.primary-btn:hover {
+    background: var(--dark-green);
+    transform: translateY(-4px);
+}
+
+.secondary-btn {
+    padding: 14px 35px;
+    border: 2px solid #e5e5e5;
+    border-radius: 40px;
+    color: var(--green);
+    font-weight: 700;
+    transition: .3s;
+}
+
+.secondary-btn:hover {
+    border-color: var(--green);
+}
+
+.hero-visual {
+    position: relative;
+}
+
+.hero-visual > img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 35px;
+    box-shadow: 0 15px 35px #00000020;
+}
+
+.hero-stat {
+    position: absolute;
+    bottom: 25px;
+    left: 5%;
+    right: 5%;
+    background: #ffffffed;
+    border-radius: 25px;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 10px 25px #0002;
+}
+
+.hero-stat h2 {
+    color: var(--green);
+    font-size: 35px;
+}
+
+.hero-stat strong {
+    font-size: 15px;
+}
+
+.hero-stat p {
+    font-size: 13px;
+    color: #777;
+}
+
+.stat-icon {
+    background: var(--green);
+    color: white;
+    padding: 17px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+/* QUICK BAR */
+
+.quick-bar {
+    background: #06a6e9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 35px 35px 0 0;
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+}
+
+.quick-bar a {
+    color: white;
+    font-size: 17px;
+    font-weight: 800;
+    text-align: center;
+    flex: 1;
+    border-right: 1px solid #ffffff45;
+}
+
+.quick-bar a:last-child {
+    border: none;
+}
+
+/* COMMON SECTIONS */
+
+.section {
+    padding: 85px 8%;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-label {
+    display: inline-block;
+    background: #dcf8e9;
+    color: var(--green);
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.section-heading h2 {
+    font-size: 42px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 12px;
+}
+
+.section-heading h2 span {
+    color: var(--green);
+}
+
+.section-heading p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--gray);
+}
+
+/* APPEALS */
+
+.appeal-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.appeal-card {
+    overflow: hidden;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.appeal-card:hover {
+    transform: translateY(-8px);
+}
+
+.appeal-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.appeal-content {
+    padding: 20px 5px;
+}
+
+.appeal-content h3 {
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.appeal-content p {
+    color: var(--gray);
+    font-size: 13px;
+    line-height: 1.8;
+    min-height: 95px;
+}
+
+.appeal-content a {
+    color: var(--green);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* DONATION */
+
+.donation-section {
+    background: #fbfcfa;
+}
+
+.donation-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+}
+
+.donation-tabs button {
+    padding: 12px 25px;
+    background: white;
+    border: none;
+    border-radius: 30px;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.donation-tabs button:hover,
+.donation-tabs .active {
+    background: var(--green);
+    color: white;
+    box-shadow: 0 5px 15px #59b83f40;
+}
+
+.donation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.donation-card {
+    height: 320px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.donation-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.donation-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(transparent, #000d);
+}
+
+.donation-overlay {
+    position: absolute;
+    z-index: 2;
+    bottom: 25px;
+    left: 25px;
+    right: 25px;
+    color: white;
+}
+
+.donation-overlay span {
+    background: #00a847;
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.donation-overlay h3 {
+    margin: 15px 0;
+    font-size: 26px;
+}
+
+.donation-overlay p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.donation-overlay a {
+    background: white;
+    color: var(--green);
+    display: inline-block;
+    padding: 13px 25px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* ABOUT */
+
+.about-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.about-content h2 {
+    font-size: 40px;
+    line-height: 1.3;
+    margin: 20px 0;
+}
+
+.about-content h2 span {
+    color: var(--green);
+}
+
+.about-content p {
+    color: var(--gray);
+    line-height: 1.9;
+    margin-bottom: 30px;
+}
+
+/* IMPACT */
+
+.impact-section {
+    padding: 80px 8%;
+    background: #f1f8ef;
+}
+
+.impact-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.impact-grid > div {
+    padding: 30px 15px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px #00000008;
+}
+
+.impact-grid h2 {
+    color: var(--green);
+    font-size: 38px;
+}
+
+.impact-grid p {
+    color: var(--gray);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* INITIATIVES */
+
+.initiative-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.initiative-card {
+    text-align: center;
+    padding: 30px 15px;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 0 5px 25px #00000010;
+    transition: .3s;
+}
+
+.initiative-card:hover {
+    transform: translateY(-8px);
+    background: #f2faef;
+}
+
+.initiative-card div {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.initiative-card h3 {
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+.initiative-card p {
+    color: var(--gray);
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+    background: #f8faf8;
+}
+
+.testimonial-card {
+    max-width: 750px;
+    margin: auto;
+    padding: 45px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px #00000010;
+}
+
+.testimonial-card p {
+    color: var(--gray);
+    font-size: 18px;
+    line-height: 1.9;
+    margin-bottom: 25px;
+}
+
+.testimonial-card h3 {
+    color: var(--dark);
+}
+
+.testimonial-card span {
+    color: var(--green);
+    font-size: 13px;
+}
+
+/* NEWS */
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.news-card {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 5px 25px #00000010;
+    transition: .3s;
+}
+
+.news-card:hover {
+    transform: translateY(-7px);
+}
+
+.news-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.news-card div {
+    padding: 22px;
+}
+
+.news-card h3 {
+    margin-bottom: 10px;
+}
+
+.news-card p {
+    color: var(--gray);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* SPONSOR */
+
+.sponsor-section {
+    margin: 60px 8%;
+    padding: 65px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    background: linear-gradient(120deg, #59b83f, #208e2a);
+}
+
+.sponsor-section h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.sponsor-section p {
+    margin-bottom: 30px;
+}
+
+.sponsor-section .primary-btn {
+    background: white;
+    color: var(--green);
+}
+
+/* FOOTER */
+
+footer {
+    background: #101d30;
+    color: white;
+    padding: 65px 8% 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 35px;
+}
+
+.footer-logo {
+    color: var(--green);
+    margin-bottom: 20px;
+}
+
+.footer-grid h3 {
+    margin-bottom: 20px;
+}
+
+.footer-grid p {
+    color: #b8c2d0;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.footer-grid a {
+    display: block;
+    color: #b8c2d0;
+    font-size: 13px;
+    margin-bottom: 12px;
+    transition: .3s;
+}
+
+.footer-grid a:hover {
+    color: var(--green);
+}
+
+.copyright {
+    border-top: 1px solid #ffffff25;
+    margin-top: 45px;
+    padding-top: 20px;
+    text-align: center;
+    color: #b8c2d0;
+    font-size: 12px;
+}
+
+/* RESPONSIVE TABLET */
+
+@media(max-width: 1000px) {
+
+    .contact {
+        display: none;
+    }
+
+    .appeal-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .initiative-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* RESPONSIVE MOBILE */
+
+@media(max-width: 650px) {
+
+    .topbar {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .header-actions {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar {
+        gap: 15px;
+    }
+
+    .navbar a {
+        font-size: 12px;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 45px 6%;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero-visual > img {
+        height: 300px;
+    }
+
+    .hero-stat h2 {
+        font-size: 25px;
+    }
+
+    .quick-bar {
+        padding: 16px 5px;
+    }
+
+    .quick-bar a {
+        font-size: 12px;
+    }
+
+    .section {
+        padding: 60px 6%;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+    }
+
+    .appeal-grid,
+    .donation-grid,
+    .about-section,
+    .news-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .impact-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .initiative-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-image img {
+        height: 280px;
+    }
+
+    .about-content h2 {
+        font-size: 32px;
+    }
+
+    .sponsor-section h2 {
+        font-size: 27px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+.saylanilogo>img{
+    width: 200px;
+    height: auto;
+}
+
+.trolley>img{
+    width: 50px;
+    height: auto;
+}
+
