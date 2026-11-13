@@ -842,9 +842,10 @@ footer {
 
 }
 
-.saylanilogo>img{
+.saylanilogo img{
     width: 200px;
-    height: auto;
+    height:auto;
+    /* background-color: red; */
 }
 
 .trolley>img{
@@ -852,3 +853,25 @@ footer {
     height: auto;
 }
 
+.flex-direction>p{
+    color: #b8c2d0;
+    font-size: 18px;
+    line-height: 2;
+}
+.icons-white{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.same{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.same>img{
+    width: 30px;
+    height: auto;
+    margin: 10px;
+}

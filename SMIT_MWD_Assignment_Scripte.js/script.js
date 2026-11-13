@@ -352,3 +352,143 @@ let a34=30;
 // console.log(a+b);
 
 console.log(Totalmark + " " + Percentage);
+
+
+// chater 9 to 11
+// Q1
+let city = prompt("Enter your city name");
+if (city === "Karachi") {
+    console.log("You are in the city of lights!");
+} else {
+    console.log("You are not in Karachi.");
+}
+
+// Q2
+let gender = prompt("Enter your gender");
+// Q3
+let trafficSignal = prompt("Enter traffic signal color");
+if (trafficSignal === "red") {
+    console.log("Must Stop!");
+} else if (trafficSignal === "yellow") {
+    console.log("Get ready to move!");
+} else if (trafficSignal === "green") {
+    console.log("Move now!");
+} else {
+    console.log("Invalid traffic signal color.");
+}
+
+// Q4
+let fuel = parseFloat(prompt("Enter remaining fuel in liters"));
+if (fuel < 0.25) {
+    console.log("Please refill the fuel in your car");
+} else {
+    console.log("You have enough fuel.");
+}
+
+// Q5
+let first = 4;
+let second = 5;
+if(++first===5){
+    alert("giving condition for variable a is true")
+}
+if(second++===83){
+    alert("giving condition for variable a is true")
+}
+
+if(third++===13){
+    alert("giving condition for variable a is true")
+}
+
+if(third===13){
+    alert("giving condition for variable a is true")
+}
+
+if(++third===13){
+    alert("giving condition for variable a is true")
+}
+
+if(third===14){
+    alert("giving condition for variable a is true")
+}
+if (first > second) {
+    console.log("first is greater than second");
+} else if (second > first) {
+    console.log("second is greater than first");
+} else {
+    console.log("first is equal to second");
+}
+
+
+// Q6
+let par=prompt("Enter your percentage");
+if(par>=80){
+    console.log("A+");
+    console.log("Excellent");
+}else if(par>=70){
+    console.log("A");
+    console.log("Good");
+} else if(par>=60){
+    console.log("B");
+    console.log("Your need to improve");
+}else if(par>=50){
+    console.log("Fail");
+    console.log("Sorry");
+}
+
+// Q7
+let secratr = 5;
+let guess = parseInt(prompt("Guess the secret number (between 1 and 10)"));
+if (guess == secratr) {
+    console.log("Bingo! Correct answer");
+} else {
+    console.log("Sorry, that's not the correct answer.\nTry again!");
+}
+
+// Q8
+let userinputdivide =prompt("Enter your private number for division:");
+if (userinputdivide % 3 === 0) {
+    console.log("The number is divisible by 3.");
+} else {
+    console.log("The number is not divisible by 3.");
+}
+
+// Q9
+let even=prompt("Enter your number for even or odd:");
+if (even % 2 === 0) {
+    console.log("The number is even.");
+} else {
+    console.log("The number is odd.");
+}
+
+// Q10
+let temprature = parseFloat(prompt("Enter the temperature in Celsius:"));
+if (temprature > 40) {
+    console.log("It is too hot outside.");
+}else if (temprature > 30) {
+    console.log("The Weather today is Normal.");
+}else if (temprature > 20) {
+    console.log("Today’s Weather is cool.");
+} else if (temprature > 10) {
+    console.log("OMG! Today’s weather is so Cool.");
+}
+else {
+    console.log("It is quite cold outside.");
+}
+
+// Q11
+let firstnum = parseFloat(prompt("Enter the first number:"));
+let secondnum = parseFloat(prompt("Enter the second number:"));
+let operation = prompt("Enter the operation (+, -, *, /, %):");
+if(firstnum+secondnum){
+    console.log("The sum is: " + (firstnum + secondnum));
+}else if(firstnum-secondnum){
+    console.log("The difference is: " + (firstnum - secondnum));
+}else if(firstnum*secondnum){
+    console.log("The product is: " + (firstnum * secondnum));
+}else if(firstnum/secondnum){
+    console.log("The quotient is: " + (firstnum / secondnum));
+}else if(firstnum%secondnum){
+    console.log("The remainder is: " + (firstnum % secondnum));
+}else {
+    console.log("Invalid operation.");
+}
