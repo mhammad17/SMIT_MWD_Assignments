@@ -491,4 +491,68 @@ if(firstnum+secondnum){
     console.log("The remainder is: " + (firstnum % secondnum));
 }else {
     console.log("Invalid operation.");
+}   
+
+// chapter 12 to 13
+
+// Q2
+let int1 = parseInt(prompt("Enter the first integer:"));
+let int2 = parseInt(prompt("Enter the second integer:"));
+
+if (int1 === int2) {
+    alert("Both integers are equal.");
+}else{
+    alert("Your try again")
+}
+
+// Q3
+let number1 = parseFloat(prompt("Enter the first number:"));
+
+if (number1 > 0) {
+    alert("The number is positive.");
+} else if (number1 === 0) {
+    alert("The number is zero.");
+}else if (number1 < 0) {
+    alert("The number is negative.");
+} else {
+    alert("Invalid input.");
+}
+
+// Q4
+let character = prompt("Enter a single small character:");
+if (character === "a" || character === "e" || character === "i" || character === "o" || character === "u" ) {
+    alert("The character is a vowel.");
+} else {
+    alert("The character is not a vowel.");
+}
+
+let password = "myPassword123";
+let userPassword = prompt("Please enter your password:");
+
+if (password === userPassword) {
+    alert("Correct! The password you entered matches the original password.");
+}else{
+    alert("Incorrect password. Please try again.");
+}
+
+// Q6
+let greeting;
+let hour = 13;
+if (hour < 18) {
+    greeting = "Good day";
+}else{
+    greeting = "Good evening";
+
+
+}
+
+let time=prompt("Enter time in 24-hour format (e.g., 1900 for 7 PM):");
+if (time >= 0000 && time < 1200) {
+    alert("Good morning!");
+} else if (time >= 1200 && time < 1700) {
+    alert("Good afternoon!");
+} else if (time >= 1700 && time < 2100) {
+    alert("Good evening!");
+}else if (time >= 2100 && time <= 2359) {
+    alert("Good night!");
 }
