@@ -25,534 +25,592 @@
 // Chapter 2
 
 // Q1
-var username;
-console.log(username);
-// Q2
-var myName = "your full name";
+// var username;
+// console.log(username);
+// // Q2
+// var myName = "your full name";
 
-console.log(myName);
+// console.log(myName);
 
-// Q3
-// a
-var message = "JS";
+// // Q3
+// // a
+// var message = "JS";
 
-// b
-var message = "Hello World";
-// // c
-// alert("message");
+// // b
+// var message = "Hello World";
+// // // c
+// // alert("message");
+// // // Q4
+// // alert("jhone Doe");
+
+// // alert("15 years old");
+
+// // alert("Certified Mobile Application Development");
+// // // Chapter4
+// // Q1
+// var proname, surname, username;
+
+// // Q2
+// // legal
+// let Name;
+// let name;
+// let name2;
+// let name$;
+// let name_3;
+
+// // Q3
+// // A    
+// console.log("Rules for naming JS veriables ");
+
+// // B
+// // For Example ;
+// var surname = "start small letter,";
+// var Type = " start capital letter,";
+// let type2 = " start or end add number,";
+// let type_ = " start or end add underscore,";
+// let type$ = " start or end add dollar,";
+
+// console.log(surname + Type + type2 + type_ + type$);
+
+// // C
+// console.log("variable legal name");
+
+// let $name = "$name";
+// let _name = "_name";
+// let Rename = " Rename";
+
+// console.log($name + _name + Rename);
+
+// // D
+// // Javascript case sencetive;
+// // The veriable Name Above ;
+// let Marks = 356;
+// // The following veriable;
+// let marks = 350;
+// // A Declare veriable Name but miner diffrence 
+// // capital letter and the following declaration veriable name small letter;   
+
+// // chapter5
+// // Q1
+// // console.log(sum of 3 and 5 is 8);
+// let a = 3;
+// let b = 5;
+// console.log(a + b);
+// // Q2
+// console.log(a - b);
+// console.log(a * b);
+// console.log(a / b);
+// console.log(a % b);
+// // Q3
+// // a
+// let c = 8;
+// console.log("Befor increment ");
+
+// console.log(c);
+// console.log("After increment");
+
+// c++
+// console.log(c);
+// // D
+// let d = 5;
+// console.log("Befor increment ");
+// console.log(d);
+
+// console.log("After increment");
+// d++
+// console.log(a);
+// // f
+// let f = 7;
+// console.log("Befor increment ");
+// f++
+// console.log("After increment");
+// console.log(f);
+// // g
+// let g = 10;
+// console.log("Befor additional ");
+// console.log(g);
+
+// g = 10 + 7;
+// console.log("After additional 7 ");
+// console.log(g + 7);
+// // j
+
+// let j = 11;
+// console.log(j)
+// console.log("Befor increment ");
+// j++
+// console.log(" value after increment ");
+// console.log(j);
+// // k
+// let k = 9;
+// let h = 2;
+// let sum = k / h;
+// console.log("remainder value of k")
+// // o last
+// console.log(sum);
+
 // // Q4
-// alert("jhone Doe");
+// let ticket = 600;
+// let five = 5;
+// let ticketsum = ticket * five;
+// console.log(ticketsum, " KPR");
+// // Q5
+// console.log("4 x 1 =", 4 * 1);
+// // console.log(4 * 1);
+// console.log("4 x 2 =", 4 * 2);
+// // console.log(4 * 2);
+// console.log("4 x 3 =", 4 * 3);
+// // console.log(4 * 3);
+// console.log("4 x 4 =", 4 * 4);
+// // console.log(4 * 4);
+// console.log("4 x 5=", 4 * 5);
+// // console.log(4 * 5);
+// console.log("4 x 6 =", 4 * 7);
+// // console.log(4 * 6);
+// console.log("4 x 8 =", 4 * 8);
+// // console.log(4 * 8);
+// console.log("4 x 9 =", 4 * 9);
+// // console.log(4 * 9);
+// console.log("4 x 10 =", 4 * 10);
+// // console.log(4 * 10);
 
-// alert("15 years old");
+// // Q6
+// console.log("Declare variable of tempereture");
+// // a
+// let Temp = 25;
+// let F = 77;
+// // B
+// console.log(Temp + "C" + " " + "is" + " " + F + "F");
+// // d
+// console.log("Declare second variable of tempereture");
+// let F2 = 70;
+// let Temp2 = 21.11111111111;
+// console.log(+ F2 + "F" + " " + "is" + " " + Temp2 + "C");
 
-// alert("Certified Mobile Application Development");
-// // Chapter4
+// // Q7
+// console.log("Shopping cart");
+
+// // a
+// let price = 1;
+// // b
+// let price2 = 650;
+// console.log("Price of items" + " " + price + " " + "is" + " " + price2);
+
+// // c
+// let quant = 1;
+// // d
+// let quant2 = 3;
+
+// // console.log("Quantity of items " + " " + quant + " " + is + " " + quant2);
+// console.log("Quantity of items" + " " + quant + " " + "is" + " " + quant2);
+
+// let PR = 2;
+// let PR2 = 100;
+// console.log("Price of items" + " " + PR + " " + "is" + " " + PR2);
+
+// let QI = 2;
+// let QI2 = 7;
+// console.log("Quantitiy of items" + " " + QI + " " + "is" + " " + QI2);
+// // e
+// let shiphcar = 100;
+// console.log("Shipping Charges " + " " + shiphcar);
+
+// console.log("Total cost of your order is 2750");
+
+// // Q8
+
+// let totalmarks = 980;
+// let marksobtained = 804;
+// let percentage = 82.04088163265306;
+// console.log("Marks Sheet");
+
+// console.log("Total Marks" + " " + " " + " " + " " + "Obtained Marks" + " " + " " + " " + " " + "Percentage");
+// console.log(totalmarks + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + marksobtained + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + percentage);
+
+// // Q9
+// console.log("Currency in PKR ");
+// let US1 = 104.80 * 10;
+// let saudi1 = 28 * 25;
+// let totalRs = US1 + saudi1;
+// console.log("Total Curency in PKR :" + " " + totalRs);
+
+// // Q10
+// let initialize = 4;
+// console.log(initialize + 5 + " " + initialize * 10 + " " + initialize / 2);
+// // Q11 
+// console.log("Age Calculator");
+// // a
+// let year = 2026;
+// console.log("current Year :" + " " + year);
+// // b
+// let birth = 2008;
+// console.log("Birth Year :" + " " + birth);
+// // c
+// let Yourage = 18;
+// console.log("Your Age :" + " " + Yourage);
+
+// // Q12
+// console.log("The Geometrizer :");
+// // a
+// let redius = 20;
+// console.log("Redius of a circle :" + " " + redius);
+// // b
+// let circum = 125.67999999999;
+// console.log("The circumfrenece is :" + " " + circum);
+// // c
+// let area = 1256.8;
+// console.log("The area is :" + " " + area);
+
+// // Q13
+// console.log("The Lifetime Supply Calculetor");
+// // a
+// let Fsnack = "Chocolate chip";
+// console.log("Favourite Snack :" + " " + Fsnack);
+// // b
+// let Cage = 15;
+// console.log("Current Age :" + " " + Cage);
+
+// // c
+// let EMA = 65;
+// console.log("Estimated Maximum Age :" + " " + EMA);
+
+// // d
+// let Amount = 3;
+// console.log("Amount of snacks per day : " + " " + Amount);
+
+// // e
+// let totalM = 150;
+// console.log("You will need " + " " + totalM + " " + "chocolate chip to last you until the  ripe old age of " + " " + EMA);
+
+// // chater 6 to 9
+// // Q1
+// console.log("Result:");
+// let number = 10;
+// console.log("The value of number is:" + " " + number);
+// console.log("...........................................");
+// console.log("The value of ++number is:" + " " + ++number);
+// console.log("Now the value of number is:" + " " + number);
+// console.log("The value of number++ is:" + " " + number++);
+// console.log("Now the value of number is:" + " " + number);
+// console.log("The value of --number is:" + " " + --number);
+// console.log("Now the value of number is:" + " " + number);
+// console.log("The value of number-- is:" + " " + number--);
+// console.log("Now the value of number is:" + " " + number);
+// // Q2
+// let A = 2;
+// let B = 1;
+// let result = --A - --B + ++B + B--;
+
+// // let --A=1;
+// // let --B=0;
+// // let --A - --B = 1-0 =1;
+// // let --A - --B + ++B = 1-0 + 1 = 2;
+// // let --A - --B + ++B + B--= 1 - 0 + 1 + 1 = 3;
+// console.log("The resilt is :" + " " + result);
+// // Q3
+// let Namefromuser = prompt("Enter user name");
+// // Q5
+// let userNum = prompt("Enter your favourit number", 5)
+// if (userNum) {
+//     console.log(userNum * 5);
+// }
+// // Q6
+// console.log("Subject Total Marks Obtained Marks Percentage");
+// // b
+// let Totalmark = 100;
+// // exports.Totalmark = Totalmark;
+// // c
+// let subject1 = prompt("Enter your subject1");
+// let Obtained1 = prompt("Enter your Obtained Marks1");
+// let subject2 = prompt("Enter your subject2");
+// let Obtained2 = prompt("Enter your Obtained Marks2");
+// let subject3 = prompt("Enter your subject3");
+// let Obtained3 = prompt("Enter your Obtained Marks3");
+
+// let subject4 = prompt("Enter your subject4");
+// let Obtained4 = prompt("Enter your Obtained Marks4");
+// let subject5 = prompt("Enter your subject5");
+// let Obtained5 = prompt("Enter your Obtained Marks5");
+// let subject6 = prompt("Enter your subject6");
+// let Obtained6 = prompt("Enter your Obtained Marks6");
+// let subject7 = prompt("Enter your subject7");
+// let Obtained7 = prompt("Enter your Obtained Marks7");
+
+// console.log(subject1 + " " + Totalmark + " " + Obtained1);
+// console.log(subject2 + " " + Totalmark + " " + Obtained2);
+// console.log(subject3 + " " + Totalmark + " " + Obtained3);
+// console.log(subject4 + " " + Totalmark + " " + Obtained4);
+// console.log(subject5 + " " + Totalmark + " " + Obtained5);
+// console.log(subject6 + " " + Totalmark + " " + Obtained6);
+// console.log(subject7 + " " + Totalmark + " " + Obtained7);
+
+// let Percentage =Obtained1 + Obtained2 + Obtained3 + Obtained4 + Obtained5 + Obtained6 + Obtained7
+// console.log(Percentage);
+// let a34=30;
+
+// // let b45=prompt("Enter ");
+// // console.log(a+b);
+
+// console.log(Totalmark + " " + Percentage);
+
+
+// // chater 9 to 11
+// // Q1
+// let city = prompt("Enter your city name");
+// if (city === "Karachi") {
+//     console.log("You are in the city of lights!");
+// } else {
+//     console.log("You are not in Karachi.");
+// }
+
+// // Q2
+// let gender = prompt("Enter your gender");
+// // Q3
+// let trafficSignal = prompt("Enter traffic signal color");
+// if (trafficSignal === "red") {
+//     console.log("Must Stop!");
+// } else if (trafficSignal === "yellow") {
+//     console.log("Get ready to move!");
+// } else if (trafficSignal === "green") {
+//     console.log("Move now!");
+// } else {
+//     console.log("Invalid traffic signal color.");
+// }
+
+// // Q4
+// let fuel = parseFloat(prompt("Enter remaining fuel in liters"));
+// if (fuel < 0.25) {
+//     console.log("Please refill the fuel in your car");
+// } else {
+//     console.log("You have enough fuel.");
+// }
+
+// // Q5
+// let first = 4;
+// let second = 5;
+// if(++first===5){
+//     alert("giving condition for variable a is true")
+// }
+// if(second++===83){
+//     alert("giving condition for variable a is true")
+// }
+
+// if(third++===13){
+//     alert("giving condition for variable a is true")
+// }
+
+// if(third===13){
+//     alert("giving condition for variable a is true")
+// }
+
+// if(++third===13){
+//     alert("giving condition for variable a is true")
+// }
+
+// if(third===14){
+//     alert("giving condition for variable a is true")
+// }
+// if (first > second) {
+//     console.log("first is greater than second");
+// } else if (second > first) {
+//     console.log("second is greater than first");
+// } else {
+//     console.log("first is equal to second");
+// }
+
+
+// // Q6
+// let par=prompt("Enter your percentage");
+// if(par>=80){
+//     console.log("A+");
+//     console.log("Excellent");
+// }else if(par>=70){
+//     console.log("A");
+//     console.log("Good");
+// } else if(par>=60){
+//     console.log("B");
+//     console.log("Your need to improve");
+// }else if(par>=50){
+//     console.log("Fail");
+//     console.log("Sorry");
+// }
+
+// // Q7
+// let secratr = 5;
+// let guess = parseInt(prompt("Guess the secret number (between 1 and 10)"));
+// if (guess == secratr) {
+//     console.log("Bingo! Correct answer");
+// } else {
+//     console.log("Sorry, that's not the correct answer.\nTry again!");
+// }
+
+// // Q8
+// let userinputdivide =prompt("Enter your private number for division:");
+// if (userinputdivide % 3 === 0) {
+//     console.log("The number is divisible by 3.");
+// } else {
+//     console.log("The number is not divisible by 3.");
+// }
+
+// // Q9
+// let even=prompt("Enter your number for even or odd:");
+// if (even % 2 === 0) {
+//     console.log("The number is even.");
+// } else {
+//     console.log("The number is odd.");
+// }
+
+// // Q10
+// let temprature = parseFloat(prompt("Enter the temperature in Celsius:"));
+// if (temprature > 40) {
+//     console.log("It is too hot outside.");
+// }else if (temprature > 30) {
+//     console.log("The Weather today is Normal.");
+// }else if (temprature > 20) {
+//     console.log("Today’s Weather is cool.");
+// } else if (temprature > 10) {
+//     console.log("OMG! Today’s weather is so Cool.");
+// }
+// else {
+//     console.log("It is quite cold outside.");
+// }
+
+// // Q11
+// let firstnum = parseFloat(prompt("Enter the first number:"));
+// let secondnum = parseFloat(prompt("Enter the second number:"));
+// let operation = prompt("Enter the operation (+, -, *, /, %):");
+// if(firstnum+secondnum){
+//     console.log("The sum is: " + (firstnum + secondnum));
+// }else if(firstnum-secondnum){
+//     console.log("The difference is: " + (firstnum - secondnum));
+// }else if(firstnum*secondnum){
+//     console.log("The product is: " + (firstnum * secondnum));
+// }else if(firstnum/secondnum){
+//     console.log("The quotient is: " + (firstnum / secondnum));
+// }else if(firstnum%secondnum){
+//     console.log("The remainder is: " + (firstnum % secondnum));
+// }else {
+//     console.log("Invalid operation.");
+// }   
+
+// // chapter 12 to 13
+
+// // Q2
+// let int1 = parseInt(prompt("Enter the first integer:"));
+// let int2 = parseInt(prompt("Enter the second integer:"));
+
+// if (int1 === int2) {
+//     alert("Both integers are equal.");
+// }else{
+//     alert("Your try again")
+// }
+
+// // Q3
+// let number1 = parseFloat(prompt("Enter the first number:"));
+
+// if (number1 > 0) {
+//     alert("The number is positive.");
+// } else if (number1 === 0) {
+//     alert("The number is zero.");
+// }else if (number1 < 0) {
+//     alert("The number is negative.");
+// } else {
+//     alert("Invalid input.");
+// }
+
+// // Q4
+// let character = prompt("Enter a single small character:");
+// if (character === "a" || character === "e" || character === "i" || character === "o" || character === "u" ) {
+//     alert("The character is a vowel.");
+// } else {
+//     alert("The character is not a vowel.");
+// }
+
+// let password = "myPassword123";
+// let userPassword = prompt("Please enter your password:");
+
+// if (password === userPassword) {
+//     alert("Correct! The password you entered matches the original password.");
+// }else{
+//     alert("Incorrect password. Please try again.");
+// }
+
+// // Q6
+// let greeting;
+// let hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+// }else{
+//     greeting = "Good evening";
+
+
+// }
+
+// let time=prompt("Enter time in 24-hour format (e.g., 1900 for 7 PM):");
+// if (time >= 0000 && time < 1200) {
+//     alert("Good morning!");
+// } else if (time >= 1200 && time < 1700) {
+//     alert("Good afternoon!");
+// } else if (time >= 1700 && time < 2100) {
+//     alert("Good evening!");
+// }else if (time >= 2100 && time <= 2359) {
+//     alert("Good night!");
+// }
+
+// Chapter 14 to 16
+// Arrays
 // Q1
-var proname, surname, username;
+
+let empty = [];
+empty[0] = "Hello, World!";
 
 // Q2
-// legal
-let Name;
-let name;
-let name2;
-let name$;
-let name_3;
+let studentNames = [];
+let studentNames = ["Alice", "Bob", "Charlie"];
 
 // Q3
-// A    
-console.log("Rules for naming JS veriables ");
+
+let stringArray = ["apple", "banana", "cherry"];
+// Q4
+
+let numberArray = [1, 2, 3, 4, 5];
+// Q5
+let booleanArray = [true, false, true];
+// Q6
+let mixedArray = ["Hello", 42, true, null];
+// Q7
+let qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+
+console.log("Qualifications:\n" + qualifications);
+
+// Q8
+
+let studentNames2 = ["Michael", "John", "Tony"];
+
+let studentScores = [320, 230, 480];
+
+let studentPercentage = [64, 46, 96];
+
+
+console.log("Score of " + studentNames2[0] + " " + studentScores[0] + " " + "Parcentage:" + studentPercentage[0] + "%");
+
+
+console.log("Score of " + studentNames2[1] + " " + studentScores[1] + " " + "Parcentage:" + studentPercentage[1] + "%");
+
+
+console.log("Score of " + studentNames2[2] + " " + studentScores[2] + " " + "Parcentage:" + studentPercentage[2] + "%");
+
+// Q9
+// A
+let colorNames = prompt9("Enter a color name to add to the beginning of the array:");
+colorNames.unshift(colorNames);
+console.log("Updated beginning color names array:", colorNames);
 
 // B
-// For Example ;
-var surname = "start small letter,";
-var Type = " start capital letter,";
-let type2 = " start or end add number,";
-let type_ = " start or end add underscore,";
-let type$ = " start or end add dollar,";
-
-console.log(surname + Type + type2 + type_ + type$);
+colorNames.push(colorNames);
+console.log("Updated end color names array:", colorNames);
 
 // C
-console.log("variable legal name");
-
-let $name = "$name";
-let _name = "_name";
-let Rename = " Rename";
-
-console.log($name + _name + Rename);
-
-// D
-// Javascript case sencetive;
-// The veriable Name Above ;
-let Marks = 356;
-// The following veriable;
-let marks = 350;
-// A Declare veriable Name but miner diffrence 
-// capital letter and the following declaration veriable name small letter;   
-
-// chapter5
-// Q1
-// console.log(sum of 3 and 5 is 8);
-let a = 3;
-let b = 5;
-console.log(a + b);
-// Q2
-console.log(a - b);
-console.log(a * b);
-console.log(a / b);
-console.log(a % b);
-// Q3
-// a
-let c = 8;
-console.log("Befor increment ");
-
-console.log(c);
-console.log("After increment");
-
-c++
-console.log(c);
-// D
-let d = 5;
-console.log("Befor increment ");
-console.log(d);
-
-console.log("After increment");
-d++
-console.log(a);
-// f
-let f = 7;
-console.log("Befor increment ");
-f++
-console.log("After increment");
-console.log(f);
-// g
-let g = 10;
-console.log("Befor additional ");
-console.log(g);
-
-g = 10 + 7;
-console.log("After additional 7 ");
-console.log(g + 7);
-// j
-
-let j = 11;
-console.log(j)
-console.log("Befor increment ");
-j++
-console.log(" value after increment ");
-console.log(j);
-// k
-let k = 9;
-let h = 2;
-let sum = k / h;
-console.log("remainder value of k")
-// o last
-console.log(sum);
-
-// Q4
-let ticket = 600;
-let five = 5;
-let ticketsum = ticket * five;
-console.log(ticketsum, " KPR");
-// Q5
-console.log("4 x 1 =", 4 * 1);
-// console.log(4 * 1);
-console.log("4 x 2 =", 4 * 2);
-// console.log(4 * 2);
-console.log("4 x 3 =", 4 * 3);
-// console.log(4 * 3);
-console.log("4 x 4 =", 4 * 4);
-// console.log(4 * 4);
-console.log("4 x 5=", 4 * 5);
-// console.log(4 * 5);
-console.log("4 x 6 =", 4 * 7);
-// console.log(4 * 6);
-console.log("4 x 8 =", 4 * 8);
-// console.log(4 * 8);
-console.log("4 x 9 =", 4 * 9);
-// console.log(4 * 9);
-console.log("4 x 10 =", 4 * 10);
-// console.log(4 * 10);
-
-// Q6
-console.log("Declare variable of tempereture");
-// a
-let Temp = 25;
-let F = 77;
-// B
-console.log(Temp + "C" + " " + "is" + " " + F + "F");
-// d
-console.log("Declare second variable of tempereture");
-let F2 = 70;
-let Temp2 = 21.11111111111;
-console.log(+ F2 + "F" + " " + "is" + " " + Temp2 + "C");
-
-// Q7
-console.log("Shopping cart");
-
-// a
-let price = 1;
-// b
-let price2 = 650;
-console.log("Price of items" + " " + price + " " + "is" + " " + price2);
-
-// c
-let quant = 1;
-// d
-let quant2 = 3;
-
-// console.log("Quantity of items " + " " + quant + " " + is + " " + quant2);
-console.log("Quantity of items" + " " + quant + " " + "is" + " " + quant2);
-
-let PR = 2;
-let PR2 = 100;
-console.log("Price of items" + " " + PR + " " + "is" + " " + PR2);
-
-let QI = 2;
-let QI2 = 7;
-console.log("Quantitiy of items" + " " + QI + " " + "is" + " " + QI2);
-// e
-let shiphcar = 100;
-console.log("Shipping Charges " + " " + shiphcar);
-
-console.log("Total cost of your order is 2750");
-
-// Q8
-
-let totalmarks = 980;
-let marksobtained = 804;
-let percentage = 82.04088163265306;
-console.log("Marks Sheet");
-
-console.log("Total Marks" + " " + " " + " " + " " + "Obtained Marks" + " " + " " + " " + " " + "Percentage");
-console.log(totalmarks + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + marksobtained + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + " " + percentage);
-
-// Q9
-console.log("Currency in PKR ");
-let US1 = 104.80 * 10;
-let saudi1 = 28 * 25;
-let totalRs = US1 + saudi1;
-console.log("Total Curency in PKR :" + " " + totalRs);
-
-// Q10
-let initialize = 4;
-console.log(initialize + 5 + " " + initialize * 10 + " " + initialize / 2);
-// Q11 
-console.log("Age Calculator");
-// a
-let year = 2026;
-console.log("current Year :" + " " + year);
-// b
-let birth = 2008;
-console.log("Birth Year :" + " " + birth);
-// c
-let Yourage = 18;
-console.log("Your Age :" + " " + Yourage);
-
-// Q12
-console.log("The Geometrizer :");
-// a
-let redius = 20;
-console.log("Redius of a circle :" + " " + redius);
-// b
-let circum = 125.67999999999;
-console.log("The circumfrenece is :" + " " + circum);
-// c
-let area = 1256.8;
-console.log("The area is :" + " " + area);
-
-// Q13
-console.log("The Lifetime Supply Calculetor");
-// a
-let Fsnack = "Chocolate chip";
-console.log("Favourite Snack :" + " " + Fsnack);
-// b
-let Cage = 15;
-console.log("Current Age :" + " " + Cage);
-
-// c
-let EMA = 65;
-console.log("Estimated Maximum Age :" + " " + EMA);
-
-// d
-let Amount = 3;
-console.log("Amount of snacks per day : " + " " + Amount);
-
-// e
-let totalM = 150;
-console.log("You will need " + " " + totalM + " " + "chocolate chip to last you until the  ripe old age of " + " " + EMA);
-
-// chater 6 to 9
-// Q1
-console.log("Result:");
-let number = 10;
-console.log("The value of number is:" + " " + number);
-console.log("...........................................");
-console.log("The value of ++number is:" + " " + ++number);
-console.log("Now the value of number is:" + " " + number);
-console.log("The value of number++ is:" + " " + number++);
-console.log("Now the value of number is:" + " " + number);
-console.log("The value of --number is:" + " " + --number);
-console.log("Now the value of number is:" + " " + number);
-console.log("The value of number-- is:" + " " + number--);
-console.log("Now the value of number is:" + " " + number);
-// Q2
-let A = 2;
-let B = 1;
-let result = --A - --B + ++B + B--;
-
-// let --A=1;
-// let --B=0;
-// let --A - --B = 1-0 =1;
-// let --A - --B + ++B = 1-0 + 1 = 2;
-// let --A - --B + ++B + B--= 1 - 0 + 1 + 1 = 3;
-console.log("The resilt is :" + " " + result);
-// Q3
-let Namefromuser = prompt("Enter user name");
-// Q5
-let userNum = prompt("Enter your favourit number", 5)
-if (userNum) {
-    console.log(userNum * 5);
-}
-// Q6
-console.log("Subject Total Marks Obtained Marks Percentage");
-// b
-let Totalmark = 100;
-// exports.Totalmark = Totalmark;
-// c
-let subject1 = prompt("Enter your subject1");
-let Obtained1 = prompt("Enter your Obtained Marks1");
-let subject2 = prompt("Enter your subject2");
-let Obtained2 = prompt("Enter your Obtained Marks2");
-let subject3 = prompt("Enter your subject3");
-let Obtained3 = prompt("Enter your Obtained Marks3");
-
-let subject4 = prompt("Enter your subject4");
-let Obtained4 = prompt("Enter your Obtained Marks4");
-let subject5 = prompt("Enter your subject5");
-let Obtained5 = prompt("Enter your Obtained Marks5");
-let subject6 = prompt("Enter your subject6");
-let Obtained6 = prompt("Enter your Obtained Marks6");
-let subject7 = prompt("Enter your subject7");
-let Obtained7 = prompt("Enter your Obtained Marks7");
-
-console.log(subject1 + " " + Totalmark + " " + Obtained1);
-console.log(subject2 + " " + Totalmark + " " + Obtained2);
-console.log(subject3 + " " + Totalmark + " " + Obtained3);
-console.log(subject4 + " " + Totalmark + " " + Obtained4);
-console.log(subject5 + " " + Totalmark + " " + Obtained5);
-console.log(subject6 + " " + Totalmark + " " + Obtained6);
-console.log(subject7 + " " + Totalmark + " " + Obtained7);
-
-let Percentage =Obtained1 + Obtained2 + Obtained3 + Obtained4 + Obtained5 + Obtained6 + Obtained7
-console.log(Percentage);
-let a34=30;
-
-// let b45=prompt("Enter ");
-// console.log(a+b);
-
-console.log(Totalmark + " " + Percentage);
-
-
-// chater 9 to 11
-// Q1
-let city = prompt("Enter your city name");
-if (city === "Karachi") {
-    console.log("You are in the city of lights!");
-} else {
-    console.log("You are not in Karachi.");
-}
-
-// Q2
-let gender = prompt("Enter your gender");
-// Q3
-let trafficSignal = prompt("Enter traffic signal color");
-if (trafficSignal === "red") {
-    console.log("Must Stop!");
-} else if (trafficSignal === "yellow") {
-    console.log("Get ready to move!");
-} else if (trafficSignal === "green") {
-    console.log("Move now!");
-} else {
-    console.log("Invalid traffic signal color.");
-}
-
-// Q4
-let fuel = parseFloat(prompt("Enter remaining fuel in liters"));
-if (fuel < 0.25) {
-    console.log("Please refill the fuel in your car");
-} else {
-    console.log("You have enough fuel.");
-}
-
-// Q5
-let first = 4;
-let second = 5;
-if(++first===5){
-    alert("giving condition for variable a is true")
-}
-if(second++===83){
-    alert("giving condition for variable a is true")
-}
-
-if(third++===13){
-    alert("giving condition for variable a is true")
-}
-
-if(third===13){
-    alert("giving condition for variable a is true")
-}
-
-if(++third===13){
-    alert("giving condition for variable a is true")
-}
-
-if(third===14){
-    alert("giving condition for variable a is true")
-}
-if (first > second) {
-    console.log("first is greater than second");
-} else if (second > first) {
-    console.log("second is greater than first");
-} else {
-    console.log("first is equal to second");
-}
-
-
-// Q6
-let par=prompt("Enter your percentage");
-if(par>=80){
-    console.log("A+");
-    console.log("Excellent");
-}else if(par>=70){
-    console.log("A");
-    console.log("Good");
-} else if(par>=60){
-    console.log("B");
-    console.log("Your need to improve");
-}else if(par>=50){
-    console.log("Fail");
-    console.log("Sorry");
-}
-
-// Q7
-let secratr = 5;
-let guess = parseInt(prompt("Guess the secret number (between 1 and 10)"));
-if (guess == secratr) {
-    console.log("Bingo! Correct answer");
-} else {
-    console.log("Sorry, that's not the correct answer.\nTry again!");
-}
-
-// Q8
-let userinputdivide =prompt("Enter your private number for division:");
-if (userinputdivide % 3 === 0) {
-    console.log("The number is divisible by 3.");
-} else {
-    console.log("The number is not divisible by 3.");
-}
-
-// Q9
-let even=prompt("Enter your number for even or odd:");
-if (even % 2 === 0) {
-    console.log("The number is even.");
-} else {
-    console.log("The number is odd.");
-}
-
-// Q10
-let temprature = parseFloat(prompt("Enter the temperature in Celsius:"));
-if (temprature > 40) {
-    console.log("It is too hot outside.");
-}else if (temprature > 30) {
-    console.log("The Weather today is Normal.");
-}else if (temprature > 20) {
-    console.log("Today’s Weather is cool.");
-} else if (temprature > 10) {
-    console.log("OMG! Today’s weather is so Cool.");
-}
-else {
-    console.log("It is quite cold outside.");
-}
-
-// Q11
-let firstnum = parseFloat(prompt("Enter the first number:"));
-let secondnum = parseFloat(prompt("Enter the second number:"));
-let operation = prompt("Enter the operation (+, -, *, /, %):");
-if(firstnum+secondnum){
-    console.log("The sum is: " + (firstnum + secondnum));
-}else if(firstnum-secondnum){
-    console.log("The difference is: " + (firstnum - secondnum));
-}else if(firstnum*secondnum){
-    console.log("The product is: " + (firstnum * secondnum));
-}else if(firstnum/secondnum){
-    console.log("The quotient is: " + (firstnum / secondnum));
-}else if(firstnum%secondnum){
-    console.log("The remainder is: " + (firstnum % secondnum));
-}else {
-    console.log("Invalid operation.");
-}   
-
-// chapter 12 to 13
-
-// Q2
-let int1 = parseInt(prompt("Enter the first integer:"));
-let int2 = parseInt(prompt("Enter the second integer:"));
-
-if (int1 === int2) {
-    alert("Both integers are equal.");
-}else{
-    alert("Your try again")
-}
-
-// Q3
-let number1 = parseFloat(prompt("Enter the first number:"));
-
-if (number1 > 0) {
-    alert("The number is positive.");
-} else if (number1 === 0) {
-    alert("The number is zero.");
-}else if (number1 < 0) {
-    alert("The number is negative.");
-} else {
-    alert("Invalid input.");
-}
-
-// Q4
-let character = prompt("Enter a single small character:");
-if (character === "a" || character === "e" || character === "i" || character === "o" || character === "u" ) {
-    alert("The character is a vowel.");
-} else {
-    alert("The character is not a vowel.");
-}
-
-let password = "myPassword123";
-let userPassword = prompt("Please enter your password:");
-
-if (password === userPassword) {
-    alert("Correct! The password you entered matches the original password.");
-}else{
-    alert("Incorrect password. Please try again.");
-}
-
-// Q6
-let greeting;
-let hour = 13;
-if (hour < 18) {
-    greeting = "Good day";
-}else{
-    greeting = "Good evening";
-
-
-}
-
-let time=prompt("Enter time in 24-hour format (e.g., 1900 for 7 PM):");
-if (time >= 0000 && time < 1200) {
-    alert("Good morning!");
-} else if (time >= 1200 && time < 1700) {
-    alert("Good afternoon!");
-} else if (time >= 1700 && time < 2100) {
-    alert("Good evening!");
-}else if (time >= 2100 && time <= 2359) {
-    alert("Good night!");
-}
+let addColorAtIndex = prompt("Enter a color name to add at a specific index:");
+colorNames.splice(2, 0, colorNames);
+console.log("Updated center color names array:", addColorAtIndex);
